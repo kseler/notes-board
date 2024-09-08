@@ -1,0 +1,20 @@
+{
+  "name": "notes-board",
+  "version": "1.0.0",
+  "description": "Simple React app for adding notes",
+  "main": "index.js",
+  "scripts": {
+    "server-install": "cd src && npm install",
+    "client-install": "cd src-frontend && npm install",
+    "server-start": "cd src && npm run start",
+    "client-start": "cd src-frontend && npm run dev",
+    "install-app": "concurrently \"npm run server-install\" \"npm run client-install\"",
+    "start-app": "concurrently \"npm run server-start\" \"npm run client-start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
