@@ -1,6 +1,8 @@
 # React Notes Board
 
-Simple app for adding notes created with React.js and Node.js(ExpressJS)
+Simple app for adding notes created with React.js and Node.js(ExpressJS).
+
+*** each note is saved to the local notes.js file
 
 ## Available Scripts
 
